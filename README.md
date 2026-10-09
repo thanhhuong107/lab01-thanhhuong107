@@ -91,3 +91,20 @@ Expected result: all environment checks pass.
 ## AI use
 
 AI assistance may be used to understand errors and improve documentation. All generated changes should be reviewed, tested, and understood before committing.
+
+## Virtual environment troubleshooting
+
+If the virtual environment is not active, run:
+
+```bash
+source .venv/bin/activate
+```
+
+If dependencies are missing, run:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pip install -e .
+```
+
+Run `python scripts/check_env.py` to verify the setup.
