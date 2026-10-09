@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+
+# Package build artifacts
+*.egg-info/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Raw data
+data/raw/
